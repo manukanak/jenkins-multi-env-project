@@ -1,4 +1,3 @@
-:::writing{variant="document" id="71482"}
 pipeline {
     agent any
 
@@ -42,8 +41,4 @@ pipeline {
             echo 'Pipeline Completed Successfully'
         }
     }
-}
-:::
-
-
 }

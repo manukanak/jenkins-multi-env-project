@@ -22,12 +22,6 @@ pipeline {
             }
         }
 
-        stage('Approval') {
-            steps {
-                input 'Deploy to Production?'
-            }
-        }
-
         stage('Deploy to PROD') {
             steps {
                 sh 'cp index.html /var/www/prod/'
